@@ -6,10 +6,13 @@ dependencies:
   - conda-forge::python=3.9
   - conda-forge::pip
   - conda-forge::numpy
+  - conda-forge::pandas
+  - conda-forge::ipykernel
+  - conda-forge::jupyterlab
   - conda-forge::nb_conda_kernels
-  - conda-forge::pycytominer
   - pip:
     - cellprofiler>=4.2.4
-    - cytotable
+    - Cytotable
+    - pycytominer
     
  
