@@ -12,7 +12,7 @@ dependencies:
   - conda-forge::nb_conda_kernels
   - pip:
     - cellprofiler>=4.2.4
-    - Cytotable
+    - CytoTable
     - pycytominer
     
  
