@@ -1,0 +1,20 @@
+# ignore py cache
+*__pychache___
+Pipeline_example/*__pycache__
+**.pyc
+
+# vscode
+*.vscode
+
+# jupyter checkpoints
+*.ipynb_checkpoints
+
+# all images remain on local machine 
+**.tif
+
+# ingore intermediate
+**.npy
+
+**.log
+
+
