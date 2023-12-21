@@ -1,5 +1,3 @@
-
-
 """
 Taken from Jenna's Cellpainting repo (cp_parallel.py) https://github.com/WayScience/nf1_cellpainting_data/blob/main/utils/cp_parallel.py
 
