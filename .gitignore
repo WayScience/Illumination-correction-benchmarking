@@ -15,6 +15,7 @@ Pipeline_example/*__pycache__
 # ingore intermediate
 **.npy
 
+# ignore log files
 **.log
 
 
