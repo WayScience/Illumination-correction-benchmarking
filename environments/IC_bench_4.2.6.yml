@@ -1,5 +1,5 @@
-
-#modeled off of  "NF1_SchwannCell_data_analysis/environment.yml" & "nf1_cellpaining_data/nf1_cellpainting_env.yml"
+# modeled off of Jenna's environment (nf1_cellpainting_env.yml) in the Cellpainting repo
+# https://github.com/WayScience/nf1_cellpainting_data/blob/main/nf1_cellpainting_env.yml
 name: IC_bench_4.2.6
 channels:
   - conda-forge
