@@ -7,7 +7,7 @@ conda init bash
 # activate the main conda environment
 conda activate IC_bench_4.2.6
 
-# convert the notebook into a python and run the file
+# convert the notebook into a python script and run the file
 jupyter nbconvert --to python \
         --FilesWriter.build_directory=scripts/ \
-        --execute notebooks/IC_prac.ipynb
+        --execute notebooks/multi_pipelines.ipynb
