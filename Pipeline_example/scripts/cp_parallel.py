@@ -1,7 +1,8 @@
 
 
 """
-Taken from Jenna's script from the Cellpainting repo
+Taken from Jenna's Cellpainting repo (cp_parallel.py) https://github.com/WayScience/nf1_cellpainting_data/blob/main/utils/cp_parallel.py
+
 This collection of functions runs CellProfiler in parallel and can convert the results into log files
 for each process.
 """
