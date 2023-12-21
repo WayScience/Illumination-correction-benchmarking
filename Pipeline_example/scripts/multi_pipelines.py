@@ -4,7 +4,7 @@
 import pathlib
 import pprint
 import sys
-sys.path.append("../scripts/")
+sys.path.append("../utils/")
 import cp_parallel
 
 # set the run type for the parallelization
