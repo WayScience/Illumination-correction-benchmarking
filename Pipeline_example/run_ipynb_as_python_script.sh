@@ -1,4 +1,4 @@
-# Taken from Jenna's script from the Cellpainting repo
+# Modifed Jenna's script (nf1_ic.sh) from the Cellpainting repo https://github.com/WayScience/nf1_cellpainting_data/blob/main/1.cellprofiler_ic/nf1_ic.sh
 
 #!/bin/bash
 
