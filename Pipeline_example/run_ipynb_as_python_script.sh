@@ -2,7 +2,7 @@
 
 #!/bin/bash
 
-# initialize the correct shell for your machine to allow conda to work (see README for note on shell names)
+# initialize the correct shell for your machine to allow conda to work 
 conda init bash
 # activate the main conda environment
 conda activate IC_bench_4.2.6
