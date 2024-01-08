@@ -1,0 +1,22 @@
+# modeled off of Jenna's environment (nf1_cellpainting_env.yml) in the Cellpainting repo
+# https://github.com/WayScience/nf1_cellpainting_data/blob/main/nf1_cellpainting_env.yml
+name: IC_bench_4.2.6
+channels:
+  - conda-forge
+dependencies:
+  - conda-forge::python=3.9
+  - conda-forge::pip
+  - conda-forge::numpy
+  - conda-forge::pandas
+  - conda-forge::ipykernel
+  - conda-forge::jupyterlab
+  - conda-forge::nb_conda_kernels
+  - conda-forge::pathlib
+  - conda-forge::nbconvert
+  - conda-forge::Cython==0.29.36
+  - pip:
+    # set the hash for the centrosome version that does not have an error in the cython compilation 
+    - git+https://github.com/CellProfiler/centrosome@b178071cff4c166ed50c7f0b4f25d34776f856d4
+    - cellprofiler==4.2.6
+    - CytoTable
+    - pycytominer
