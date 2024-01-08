@@ -21,7 +21,7 @@ import cp_parallel
 run_name = "illum_correction"
 
 # set main output dir for all plates
-output_dir = pathlib.Path("./Corrected_Images")
+output_dir = pathlib.Path("/home/maggiekeating/Illumination-correction-benchmarking/Pipeline_example/Corrected_Images")
 output_dir.mkdir(exist_ok=True)
 
 # directory where pipelines are located 
