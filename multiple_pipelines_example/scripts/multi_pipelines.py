@@ -10,7 +10,6 @@
 import pathlib
 import pprint
 import sys
-import os
 sys.path.append("../utils/")
 import cp_parallel
 
