@@ -20,4 +20,4 @@ The goal of this repository is to evaluate the performance of different IC param
 
 ## CellProfiler Parallel
 
-To improve the speed for correcting the images, we have implemented ![CellProfiler Parallel], which utilizes multi-processing to run one plate per CPU core.
+To improve the speed for correcting the images, we have implemented `CellProfiler Parallel`, which utilizes multi-processing to run one plate per CPU core.
