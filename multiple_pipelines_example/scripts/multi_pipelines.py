@@ -10,6 +10,7 @@
 import pathlib
 import pprint
 import sys
+import os
 sys.path.append("../utils/")
 import cp_parallel
 
@@ -21,7 +22,7 @@ import cp_parallel
 run_name = "illum_correction"
 
 # set main output dir for all plates
-output_dir = pathlib.Path("/home/maggiekeating/Illumination-correction-benchmarking/multiple_pipelines_example/outputs/IC_npys")
+output_dir = pathlib.Path("/home/maggiekeating/Illumination-correction-benchmarking/multiple_pipelines_example/outputs/npys_IC")
 output_dir.mkdir(exist_ok=True)
 
 # directory where pipelines are located 
@@ -54,7 +55,7 @@ print(plate_run_names)
 plate_info_dictionary = {
     name: {    
         "path_to_images": pathlib.Path(f"../data/test_plate/Plate_1/"),
-        "path_to_output": pathlib.Path(f"{output_dir}/IC_{name}"),
+        "path_to_output": pathlib.Path(f"{output_dir}/{name}_IC"),
         }
         for name in plate_run_names
 }

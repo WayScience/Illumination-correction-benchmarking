@@ -176,7 +176,7 @@ SaveImages:[module_num:9|svn_version:'Unknown'|variable_revision_number:16|show_
     Select the image to save:IllumCY5
     Select method for constructing file names:Single name
     Select image name for file prefix:None
-    Enter single file name:IllumCY5_cor_2
+    Enter single file name:CY5_IC
     Number of digits:4
     Append a suffix to the image file name?:Yes
     Text to append to the image name:IllumDNA
@@ -196,7 +196,7 @@ SaveImages:[module_num:10|svn_version:'Unknown'|variable_revision_number:16|show
     Select the image to save:IllumDAPI
     Select method for constructing file names:Single name
     Select image name for file prefix:None
-    Enter single file name:IllumDAPI_cor_2
+    Enter single file name:DAPI_IC
     Number of digits:4
     Append a suffix to the image file name?:No
     Text to append to the image name:
@@ -216,7 +216,7 @@ SaveImages:[module_num:11|svn_version:'Unknown'|variable_revision_number:16|show
     Select the image to save:IllumGFP
     Select method for constructing file names:Single name
     Select image name for file prefix:None
-    Enter single file name:IllumGFP_cor_2
+    Enter single file name:GFP_IC
     Number of digits:4
     Append a suffix to the image file name?:No
     Text to append to the image name:
@@ -236,7 +236,7 @@ SaveImages:[module_num:12|svn_version:'Unknown'|variable_revision_number:16|show
     Select the image to save:IllumRFP
     Select method for constructing file names:Single name
     Select image name for file prefix:None
-    Enter single file name:IllumRFP_corr_2
+    Enter single file name:RFP_IC
     Number of digits:4
     Append a suffix to the image file name?:No
     Text to append to the image name:
