@@ -7,8 +7,8 @@ Images utilzed in this module were downloaded from the [NF1 Schwann Cell Genotyp
 ## CellProfiler Pipelines 
 The goal of this repository is to evaluate the performance of different IC parameters by utilizing multiple CellProfiler pipelines. An overview of CellProfiler IC parameters can be found at Jenna Tomkinson's [Steps for Performing Illumination Correction in Microscopy Images blog](https://www.waysciencelab.com/2023/08/07/illumsteps.html). 
 
-[!Note]
-The pipelines provided in this module are purely examples and do not necessarily represent the best IC parameters for the dataset. 
+>[!Note]
+>The pipelines provided in this module are purely examples and do not necessarily represent the best IC parameters for the dataset. 
 
 ## Run the 'multi_pipelines' notebook
 
