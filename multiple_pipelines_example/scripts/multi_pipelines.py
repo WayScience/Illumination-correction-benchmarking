@@ -41,7 +41,6 @@ plate_run_names = []
 for file_path in pathlib.Path("/home/maggiekeating/Illumination-correction-benchmarking/multiple_pipelines_example/data/test_plate/").iterdir():
     if str(file_path.stem).startswith("Plate"):
         for i in range(len(pipeline_names)):
-            #plate_run_names.append(str( file_path.stem + "_" + pipeline_names[i] + "_IC"))
             plate_run_names.append(str(file_path.stem + "_" + pipeline_names[i]))
 
 print(plate_run_names)
