@@ -58,7 +58,7 @@ def run_cellprofiler_parallel(
     commands = []
 
     # make logs directory
-    log_dir = pathlib.Path("/home/maggiekeating/Illumination-correction-benchmarking/multiple_pipelines_example/outputs/logs_IC")
+    log_dir = pathlib.Path("../outputs/logs")
     os.makedirs(log_dir, exist_ok=True)
 
     # iterate through each plate in the dictionary
