@@ -33,7 +33,7 @@ def results_to_log(
         output_string = result.stderr.decode("utf-8")
 
         # set log file name as plate name from command
-        log_file_path = pathlib.Path(f"{log_dir}/{plate_run_name}_{run_name}_run.log")
+        log_file_path = pathlib.Path(f"{log_dir}/{plate_run_name}_run.log")
         # print output to a log file for each plate to view after the run
         with open(log_file_path, "w") as log_file:
             log_file.write(plate_run_name + "\n")
@@ -58,7 +58,7 @@ def run_cellprofiler_parallel(
     commands = []
 
     # make logs directory
-    log_dir = pathlib.Path("./logs")
+    log_dir = pathlib.Path("../outputs/logs")
     os.makedirs(log_dir, exist_ok=True)
 
     # iterate through each plate in the dictionary
