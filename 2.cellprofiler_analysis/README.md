@@ -1,0 +1,2 @@
+# Illumination correction, segmentation, and feature extraction using CellProfiler
+In this module, we apply the illumination correction functions generated in the `1.run_multi_IC_pipelines' module as well as segment nuclei, cytoplasms, and whole cells from images and perform feature extraction using CellProfiler.
