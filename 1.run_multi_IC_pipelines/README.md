@@ -23,3 +23,5 @@ The goal of this repository is to evaluate the performance of different IC param
 ## CellProfiler Parallel
 
 To improve the speed for correcting the images, we have implemented `CellProfiler Parallel`, which utilizes multi-processing to run one plate per CPU core.
+
+<sub>Modifed from Jenna Tomkinson's [nf1_cellpainting_data repository](https://github.com/WayScience/nf1_cellpainting_data/blob/main/1.cellprofiler_ic/README.md)<sub>

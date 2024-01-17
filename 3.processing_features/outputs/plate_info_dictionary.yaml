@@ -1,0 +1,6 @@
+IC_function_1:
+  dest_path: ../outputs/converted_data/IC_function_1.parquet
+  source_path: ../../2.cellprofiler_analysis/outputs/SQLites/IC_function_1.sqlite
+IC_function_2:
+  dest_path: ../outputs/converted_data/IC_function_2.parquet
+  source_path: ../../2.cellprofiler_analysis/outputs/SQLites/IC_function_2.sqlite
