@@ -311,7 +311,7 @@ ExportToDatabase:[module_num:18|svn_version:'Unknown'|variable_revision_number:2
     Database host:
     Username:
     Password:
-    Name the SQLite database file:test_data.sqlite
+    Name the SQLite database file:IC_function_1.sqlite
     Calculate the per-image mean values of object measurements?:No
     Calculate the per-image median values of object measurements?:No
     Calculate the per-image standard deviation values of object measurements?:No
@@ -334,7 +334,7 @@ ExportToDatabase:[module_num:18|svn_version:'Unknown'|variable_revision_number:2
     Properties group field count:1
     Properties filter field count:0
     Workspace measurement count:1
-    Experiment name:test_data
+    Experiment name:IC_function_1
     Which objects should be used for locations?:None
     Enter a phenotype class table name if using the Classifier tool in CellProfiler Analyst:
     Export object relationships?:No
