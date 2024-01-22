@@ -1,5 +1,5 @@
 # Modified Jenna's nf1_ic.ipynb file from the Cellpainting repo
-https://github.com/WayScience/nf1_cellpainting_data/blob/main/2.cellprofiler_analysis/nf1_analysis.sh
+# https://github.com/WayScience/nf1_cellpainting_data/blob/main/2.cellprofiler_analysis/nf1_analysis.sh
 
 #!/bin/bash
 
