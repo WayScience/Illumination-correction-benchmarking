@@ -14,7 +14,7 @@ dependencies:
   - conda-forge::pathlib
   - conda-forge::nbconvert
   - conda-forge::Cython==0.29.36
-  - conda-forge/label/broken::pytorch
+  - conda-forge::pytorch
   - pip:
     # set the hash for the centrosome version that does not have an error in the cython compilation 
     - git+https://github.com/CellProfiler/centrosome@b178071cff4c166ed50c7f0b4f25d34776f856d4

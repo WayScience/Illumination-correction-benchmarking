@@ -11,14 +11,14 @@
 # Modified Jenna's nf1_ic.ipynb file from the Cellpainting repo
 # https://github.com/WayScience/nf1_cellpainting_data/blob/main/3.processing_features/0.merge_sc_cytotable.ipynb
 
-import sys
-import pathlib
-import yaml
 import pprint
-import pandas as pd
+import sys
 
 # cytotable will merge objects from SQLite file into single cells and save as parquet file
 from cytotable import convert, presets
+import pandas as pd
+import pathlib
+import yaml
 
 # import utility to use function that will add single-cell count per well as a metadata column
 sys.path.append("../../utils/")
@@ -77,9 +77,9 @@ plate_info_dictionary = {
 
 # iterate over the dictionary and add the source_path
 for name, info in plate_info_dictionary.items():
-        for i in range(len(pipeline_names)):
-            if name == pipeline_names[i]:
-                  info["source_path"] = str(pathlib.Path(f"../../2.cellprofiler_analysis/outputs/SQLites/" + pipeline_names[i]+ ".sqlite"))
+    for i in range(len(pipeline_names)):
+        if name == pipeline_names[i]:
+            info["source_path"] = str(pathlib.Path(f"../../2.cellprofiler_analysis/outputs/SQLites/{pipeline_names[i]}.sqlite"))
 
 # view the dictionary to assess that all info is added correctly
 pprint.pprint(plate_info_dictionary, indent=4)

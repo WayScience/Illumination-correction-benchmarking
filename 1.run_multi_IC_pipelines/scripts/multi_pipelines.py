@@ -51,9 +51,9 @@ plate_info_dictionary = {
 }
 # iterate over the dictionary and add the path_to_pipeline 
 for name, info in plate_info_dictionary.items():
-        for i in range(len(pipeline_names)):
-                if name == pipeline_names[i]:
-                    info["path_to_pipeline"] = pathlib.Path(f"../pipelines/{pipeline_names[i]}.cppipe")
+    for i in range(len(pipeline_names)):
+        if name == pipeline_names[i]:
+            info["path_to_pipeline"] = pathlib.Path(f"../pipelines/{pipeline_names[i]}.cppipe")
 
 # view the dictionary to assess that all info is added correctly
 pprint.pprint(plate_info_dictionary, indent=4)

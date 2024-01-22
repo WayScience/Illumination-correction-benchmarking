@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Modified Jenna's nf1_ic.ipynb file from the Cellpainting repo
+# https://github.com/WayScience/nf1_cellpainting_data/blob/main/3.processing_features/processing_features.sh
+
 # initialize the correct shell for your machine to allow conda to work (see README for note on shell names)
 conda init bash
 
