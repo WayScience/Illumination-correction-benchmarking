@@ -19,5 +19,5 @@
 **.log
 
 # ingnore runinfo in the 3.processing_features module
-runinfo/**
+3.processing_features/notebooks/runinfo/**
 
