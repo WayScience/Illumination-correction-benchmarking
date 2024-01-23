@@ -7,9 +7,11 @@
 # Modified Jenna's nf1_ic.ipynb file from the Cellpainting repo
 # https://github.com/WayScience/nf1_cellpainting_data/blob/main/1.cellprofiler_ic/nf1_ic.ipynb
 
+import sys
+
 import pathlib
 import pprint
-import sys
+
 sys.path.append("../../utils")
 import cp_parallel
 

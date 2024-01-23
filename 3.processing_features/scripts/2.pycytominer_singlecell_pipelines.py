@@ -20,14 +20,12 @@
 # Modified Jenna's nf1_ic.ipynb file from the Cellpainting repo
 # https://github.com/WayScience/nf1_cellpainting_data/blob/main/3.processing_features/2.pycytominer_singlecell_pipelines.ipynb
 
-import pathlib
-import yaml
-import pprint
-
 import pandas as pd
-
+import pathlib
+import pprint
 from pycytominer import aggregate, annotate, normalize, feature_select
 from pycytominer.cyto_utils import load_profiles, output, infer_cp_features
+import yaml
 
 
 # In[2]:

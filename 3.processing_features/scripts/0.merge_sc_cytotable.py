@@ -54,7 +54,7 @@ pipeline_names = []
 
 # iterate through "IC_function_apply_pipelines" and append pipline_names from file names
 for file_path in pathlib.Path("../../2.cellprofiler_analysis/pipelines/IC_function_apply_pipelines").iterdir():
-    if str(file_path.stem).startswith("IC_function"):
+    if str(file_path.stem).startswith("pipeline_"):
         pipeline_names.append(str(file_path.stem))
 
 print(pipeline_names)
@@ -111,11 +111,6 @@ for plate, info in plate_info_dictionary.items():
     sc_utils.add_sc_count_metadata_file(
         data_path=dest_path, well_column_name="Image_Metadata_Well", file_type="parquet"
     )
-
-    # Remove NAs from ImageNumber column (artifact from Cytotable)
-    df = pd.read_parquet(dest_path)
-    df = df.dropna(subset=["Metadata_ImageNumber"])
-    df.to_parquet(dest_path, index=False)
     
     print(f"Added single cell count as metadata and removed NAN ImageNumber rows to {pathlib.Path(dest_path).name}!")
 
@@ -125,7 +120,7 @@ for plate, info in plate_info_dictionary.items():
 # In[5]:
 
 
-converted_df = pd.read_parquet(plate_info_dictionary["IC_function_1"]["dest_path"])
+converted_df = pd.read_parquet(plate_info_dictionary["pipeline_2_IC"]["dest_path"])
 
 print(converted_df.shape)
 converted_df.head()
@@ -133,7 +128,7 @@ converted_df.head()
 
 # ## Write dictionary to yaml file for use in downstream steps
 
-# In[ ]:
+# In[6]:
 
 
 dictionary_path = pathlib.Path("../outputs/plate_info_dictionary.yaml")

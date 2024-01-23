@@ -9,8 +9,8 @@
 # iou function from stackoverflow user gil.fernandes
 # https://stackoverflow.com/questions/66595055/fastest-way-of-computing-binary-mask-iou-with-numpy
 
-import torch
 import cv2
+import torch
 
 
 # In[2]:

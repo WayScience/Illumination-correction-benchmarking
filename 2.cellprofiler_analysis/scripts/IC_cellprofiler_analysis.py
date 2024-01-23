@@ -11,10 +11,10 @@
 # Modified Jenna's nf1_ic.ipynb file from the Cellpainting repo
 # https://github.com/WayScience/nf1_cellpainting_data/blob/main/2.cellprofiler_analysis/nf1_analysis.ipynb
 
+import sys
+
 import pathlib
 import pprint
-
-import sys
 
 sys.path.append("../../utils")
 import cp_parallel
@@ -40,7 +40,7 @@ IC_function_names = []
 
 # iterate through "IC_functions" and append IC_function_names from file names
 for file_path in pathlib.Path("../../1.run_multi_IC_pipelines/data/test_plate/Plate_3_prime_sub/IC_functions/").iterdir():
-    if str(file_path.stem).startswith("IC_function"):
+    if str(file_path.stem).startswith("pipeline_"):
         IC_function_names.append(str(file_path.stem))
 
 # iterate through "IC_function_names" and generate a pipeline that includes the correct IC functions for each 
@@ -48,7 +48,7 @@ for i in range(len(IC_function_names)):
     search_text = "IC_function_1"
     replace_text = IC_function_names[i] 
 
-    with open('../pipelines/IC_function_apply_model.cppipe', 'r') as file:
+    with open("../pipelines/IC_function_apply_model.cppipe", 'r') as file:
         data = file.read()
         new_file = open('../pipelines/IC_function_apply_pipelines/' + IC_function_names[i] + '.cppipe', 'x')
         new_file.write(data)
