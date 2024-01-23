@@ -19,5 +19,5 @@ Pipeline_example/*__pycache__
 **.log
 
 # ingnore runinfo in the 3.processing_features module
-3.processing_features/notebooks/runinfo/000
+**/runinfo
 
