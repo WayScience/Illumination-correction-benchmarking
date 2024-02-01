@@ -1,0 +1,3 @@
+WellRow,WellCol,well_position,gene_name,genotype,seed_density
+B,1,B1,NF1,WT,500
+B,2,B2,NF1,WT,1000

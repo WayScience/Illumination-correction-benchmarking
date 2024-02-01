@@ -1,6 +1,6 @@
 # ignore py cache
 *__pychache___
-Pipeline_example/*__pycache__
+1.run_multi_IC_pipelines/*__pycache__
 **.pyc
 
 # vscode
@@ -18,4 +18,6 @@ Pipeline_example/*__pycache__
 # ignore log files
 **.log
 
+# ingnore runinfo in the 3.processing_features module
+3.processing_features/notebooks/runinfo/**
 

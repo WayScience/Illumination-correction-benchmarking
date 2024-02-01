@@ -80,7 +80,7 @@ CorrectIlluminationCalculate:[module_num:5|svn_version:'Unknown'|variable_revisi
     Block size:60
     Rescale the illumination function?:Yes
     Calculate function for each image individually, or based on all images?:All: Across cycles
-    Smoothing method:Median Filter
+    Smoothing method:Smooth to Average
     Method to calculate smoothing filter size:Automatic
     Approximate object diameter:10
     Smoothing filter size:10
@@ -105,7 +105,7 @@ CorrectIlluminationCalculate:[module_num:6|svn_version:'Unknown'|variable_revisi
     Block size:60
     Rescale the illumination function?:Yes
     Calculate function for each image individually, or based on all images?:All: Across cycles
-    Smoothing method:Median Filter
+    Smoothing method:Smooth to Average
     Method to calculate smoothing filter size:Automatic
     Approximate object diameter:10
     Smoothing filter size:10
@@ -130,7 +130,7 @@ CorrectIlluminationCalculate:[module_num:7|svn_version:'Unknown'|variable_revisi
     Block size:60
     Rescale the illumination function?:Yes
     Calculate function for each image individually, or based on all images?:All: Across cycles
-    Smoothing method:Median Filter
+    Smoothing method:Smooth to Average
     Method to calculate smoothing filter size:Automatic
     Approximate object diameter:10
     Smoothing filter size:10
@@ -155,7 +155,7 @@ CorrectIlluminationCalculate:[module_num:8|svn_version:'Unknown'|variable_revisi
     Block size:60
     Rescale the illumination function?:Yes
     Calculate function for each image individually, or based on all images?:All: Across cycles
-    Smoothing method:Median Filter
+    Smoothing method:Smooth to Average
     Method to calculate smoothing filter size:Automatic
     Approximate object diameter:10
     Smoothing filter size:10

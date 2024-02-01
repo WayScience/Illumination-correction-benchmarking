@@ -1,0 +1,6 @@
+pipeline_1_IC:
+  dest_path: ../outputs/converted_data/pipeline_1_IC.parquet
+  source_path: ../../2.cellprofiler_analysis/outputs/SQLites/pipeline_1_IC.sqlite
+pipeline_2_IC:
+  dest_path: ../outputs/converted_data/pipeline_2_IC.parquet
+  source_path: ../../2.cellprofiler_analysis/outputs/SQLites/pipeline_2_IC.sqlite

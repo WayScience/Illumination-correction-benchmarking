@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Modified Jenna's nf1_ic.ipynb file from the Cellpainting repo
+# https://github.com/WayScience/nf1_cellpainting_data/blob/main/3.processing_features/processing_features.sh
+
+# initialize the correct shell for your machine to allow conda to work (see README for note on shell names)
+conda init bash
+
+# activate the main conda environment
+conda activate IC_bench_4.2.6
+
+# convert all notebooks to python files into the scripts folder
+jupyter nbconvert --to python --output-dir=scripts/ *.ipynb
+
+# run each python script
+python scripts/0.merge_sc_cytotable.py
+python scripts/1.pycytominer_bulk_pipelines.py
+python scripts/2.pycytominer_singlecell_pipelines.py
+
+ 
