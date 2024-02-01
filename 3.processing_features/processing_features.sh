@@ -16,4 +16,5 @@ jupyter nbconvert --to python --output-dir=scripts/ *.ipynb
 python scripts/0.merge_sc_cytotable.py
 python scripts/1.pycytominer_bulk_pipelines.py
 python scripts/2.pycytominer_singlecell_pipelines.py
+
  
