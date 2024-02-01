@@ -44,7 +44,7 @@ print(pipeline_names)
 
 
 # create plate info dictionary with all parts of the CellProfiler CLI command to run in parallel
-plate_info_dictionary = {
+pipeline_info_dictionary = {
     name: {    
         "path_to_images": pathlib.Path(f"../data/test_plate/Plate_3_prime_sub/"),
         "path_to_output": pathlib.Path(f"{output_dir}/{name}_IC"),
@@ -52,19 +52,19 @@ plate_info_dictionary = {
         for name in pipeline_names
 }
 # iterate over the dictionary and add the path_to_pipeline 
-for name, info in plate_info_dictionary.items():
+for name, info in pipeline_info_dictionary.items():
     for i in range(len(pipeline_names)):
         if name == pipeline_names[i]:
             info["path_to_pipeline"] = pathlib.Path(f"../pipelines/{pipeline_names[i]}.cppipe")
 
 # view the dictionary to assess that all info is added correctly
-pprint.pprint(plate_info_dictionary, indent=4)
+pprint.pprint(pipeline_info_dictionary, indent=4)
 
 
 # In[4]:
 
 
 cp_parallel.run_cellprofiler_parallel(
-    plate_info_dictionary=plate_info_dictionary, run_name=run_name
+    pipeline_info_dictionary=pipeline_info_dictionary, run_name=run_name
 )
 
